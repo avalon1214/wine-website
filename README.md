@@ -1,2 +1,2 @@
-# winde-website
+# wine-website
 Responsive website
