@@ -1,0 +1,128 @@
+
+
+/* Navigationbar */
+.nav-logo {
+	display: block;
+	width: 20%;
+	height: 20vh;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.nav-logo::after {
+	content: "";
+	clear: both;
+}
+
+.nav-logo img {
+	width: 100px;
+	height: 100px;
+	padding-top: 5%;
+
+}
+.wrap-nav {
+	background: rgba(255,255,255,0.85);
+	width: 100%;
+	height: auto;
+	height: 20vh;
+	position: absolute;
+	z-index: 2;
+}
+.navbar-menu {
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    transform: translateX();
+    transition: 0.5s;
+}
+.navbar-menu.active {
+	transform: translateX(0);
+	transition: 0.5s; 
+	background-color: rgb(111, 159, 216, 0.6);
+}
+.navbar-menu .menu-listing { 
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	margin-top: 10vh;
+	padding-right: 10%;
+}
+
+.menu-listing li { 
+	display: inline-block;
+	
+}
+
+.menu-listing li:hover {
+	background: white;
+	transition: 0.3s;
+}
+.menu-listing li a {
+	color: black;
+	display: block;
+	font-size: 24px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 12px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+/* End */
+
+/*Slider edit*/
+
+.carousel-item {
+ background-color: white !important ;
+}
+
+h2 img {
+	height: 80vh;
+	width: 100vw;
+}
+
+.carousel-inner {
+	height: 80vh;
+
+}
+
+
+/*Start Visit :) */
+
+.visit {
+	background-image: url(../img/backg.png);
+	background-size: c ;
+	width: 100%;
+	height: 100vh;
+	padding-top: 24px;
+
+}
+
+.fp-main {
+	width: 90%;
+	height: 36vh;
+	margin: 0 auto;
+	z-index: 1110 !important;
+	background-image: url(../img/main.png);
+	background-size: inherit;
+	padding: 5vh 0 ;
+}
+
+.wrap-fp-main {
+	background-color: white;
+	height: 26vh;
+	width: 100%;
+	padding: 20px;
+}
+
+.fp-main p {
+	text-align: center;
+	width: 100%;
+	font-size: 26px;
+	color: rgb(52,41,45);
+}
