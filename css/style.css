@@ -92,13 +92,13 @@ h2 img {
 }
 
 
-/*Start Visit :) */
+/*Start Visit :)1214 */
 
 .visit {
 	background-image: url(../img/backg.png);
 	background-size: c ;
 	width: 100%;
-	height: 100vh;
+	height: 110vh;
 	padding-top: 24px;
 
 }
@@ -115,7 +115,7 @@ h2 img {
 
 .wrap-fp-main {
 	background-color: white;
-	height: 26vh;
+	height: 30vh;
 	width: 100%;
 	padding: 20px;
 }
@@ -125,4 +125,149 @@ h2 img {
 	width: 100%;
 	font-size: 26px;
 	color: rgb(52,41,45);
+}
+
+
+.h3-wrap {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+.visit h3 {
+	font-size: 52px;
+	color: #70072c;
+	margin: 0 auto;
+}
+
+.img-wrap {
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/sketch.png);
+	background-size: auto;
+	background-repeat: round;
+}
+
+.wrap-tx {
+	padding: 10px;
+}
+
+.wrap-tx span {
+	color: #8ba462;
+	font-size: 42px;
+	width: 100%;
+	display: block;
+}
+
+.wrap-tx i {
+	font-size: 28px;
+	display: block;
+	width: 100%;
+	padding: 10px 0 ;
+}
+
+.wrap-tx p{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+}
+
+.wrap-tx button {
+	width: 40%;
+	height: 46px;
+	margin-top: 10px;
+	background-color: white;
+	color: #70072c;
+	border-radius: 25px;
+	font-weight: bolder;
+	border: 2px solid #c9c4b8;
+}
+
+.wrap-tx button:hover {
+	background-color: #70072c;
+	color: white;
+	
+
+}
+
+/*Tours and Lebel*/
+
+.t-l {
+	width: 100%;
+	height: 40vh;
+	color: white;
+	text-align: center;
+	font-size: 56px;
+}
+
+.t-l-1 {
+	width: 100%;
+	background-image:url(../img/t-l-1.jpg);
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.t-l-1:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+   
+
+}
+
+
+
+
+
+
+.t-l-2 {
+	width: 100%;
+	background-image: url(../img/t-l-2.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.t-l-2:hover > .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	z-index: 10;
+	
+}
+.t-l-2:hover > i {
+	z-index: 20;
+}
+
+.t-l-1 i {
+ 	text-shadow: 0 0 4.5px #000;
+}
+
+.t-l-1 i:hover {
+	
+}
+
+
+/*product IMG */
+
+.pr-img {
+	width: 100%;
+	height: 40vh;
+}
+
+.pr-img img {
+	width: 100vw;
+	height: 40vh;
 }
