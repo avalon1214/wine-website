@@ -136,7 +136,6 @@ h2 img {
 .visit h3 {
 	font-size: 52px;
 	color: #70072c;
-	margin: 0 auto;
 }
 
 .img-wrap {
@@ -267,7 +266,77 @@ h2 img {
 	height: 40vh;
 }
 
-.pr-img img {
-	width: 100vw;
-	height: 40vh;
+.pr-img {
+	height: 50vh;
+	width: 100%;
+	background:	url(../img/land-1.jpg) ;
+	background-size: cover;
+
+}
+
+.shop {
+	height: 50vh;
+	/*background-image:  url(../img/img1.jpg);
+	background-size: center;*/
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+}
+
+.shop img {
+	box-shadow: 0 0 60px rgba(0,0,0,0.4);
+	position: absolute;
+	width: 93vw;
+	height: 50vh;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+/*Latest news*/
+
+.list-w {
+	height: 70vh;
+}
+.w-news {
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+
+.inf-n-p {
+	display: block;
+	text-align: center;
+    color: #70072c;
+	font-size: 64px;
+	margin: 30px 0;
+}
+
+
+.n-con-w {
+	padding: 20px 0 ;
+}
+.n-con-w span{
+	width: 20%;
+	height: 100%;
+	font-size: 42px;
+	color: #70072c;
+	display: inline-block;
+    border-right: 1px solid #9e9687;
+    text-align: right;
+	line-height: 50px;
+	padding-left: 20px;
+}
+
+.n-con-w p {
+	display: inline-block;
+	width: 79%;
+	padding: 5px;
+}
+
+.n-con-w i {
+	color: #8ba462;
+	font-size: 34px;
+	display: block;
 }
