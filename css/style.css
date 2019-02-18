@@ -58,7 +58,7 @@
 }
 
 .menu-listing li:hover {
-	background: white;
+	background: transparent;
 	transition: 0.3s;
 }
 .menu-listing li a {
@@ -73,6 +73,44 @@
 	transition: 0.5s;
 }
 
+
+nav ul li a:hover {
+	background-color: #70072c;
+	color: white;
+}
+
+nav ul > li > ul  {
+	display: none ;
+	position: absolute;
+	width: 15vw;
+}
+
+nav ul > li > ul:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+nav ul > li > ul > li {
+	background-color: #70072c;
+	width: 100%;
+	padding: 2% 2%;
+	font-size: 20px;
+	text-align: right;
+	color: white;
+	border: 4px solid #70072c;
+}
+
+nav ul > li > ul > li:hover {
+	color: #70072c;
+	border: 4px solid #70072c;
+	background-color: #eee;
+}
+
+nav > ul > li:hover ul{
+	display: block;
+}
+
+
 /* End */
 
 /*Slider edit*/
@@ -82,12 +120,12 @@
 }
 
 h2 img {
-	height: 100vh;
+	height: 62vh;
 	width: 100vw;
 }
 
 .carousel-inner {
-	height: 100vh;
+	height: 62vh;
 
 }
 
@@ -140,7 +178,7 @@ h2 img {
 
 .img-wrap {
 	width: 100%;
-	height: 300px;
+	height: 40vh;
 	background-image: url(../img/sketch.png);
 	background-size: auto;
 	background-repeat: round;
@@ -196,46 +234,43 @@ h2 img {
 	color: white;
 	text-align: center;
 	font-size: 56px;
+	display: flex;
+	flex-flow: row nowrap;
 }
 
 .t-l-1 {
-	width: 100%;
+	width: 50vw;
 	background-image:url(../img/t-l-1.jpg);
 	height: 40vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: cover;
 }
 
 .t-l-1:hover > .overlay {
-    width:100%;
-    height:100%;
+    width: 50%;
+    height: 40vh;
     position:absolute;
     background-color:#000;
     opacity:0.5;
     display: flex;
 	align-items: center;
 	justify-content: center;
-   
-
 }
 
-
-
-
-
-
 .t-l-2 {
-	width: 100%;
+	width: 50vw;
 	background-image: url(../img/t-l-2.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-size: cover;
 }
 
 .t-l-2:hover > .overlay {
-    width:100%;
-    height:100%;
+    width: 50%;
+    height: 40vh;
     position:absolute;
     background-color:#000;
     opacity:0.5;
@@ -258,7 +293,6 @@ h2 img {
 	
 }
 
-
 /*product IMG */
 
 .pr-img {
@@ -276,8 +310,6 @@ h2 img {
 
 .shop {
 	height: 50vh;
-	/*background-image:  url(../img/img1.jpg);
-	background-size: center;*/
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
@@ -294,14 +326,47 @@ h2 img {
 	text-align: center;
 }
 
+
+.shop-pr {
+	height: 30vh;
+	padding: 5vh 0 0 0;
+}
 .pr-img span {
 	color: #70072c;
     font-size: 64px;
 }
 
+
+.btn-sh-r {
+	border: 1px solid #c9c4b8;
+    border-radius: 46px;
+    background-color: white;
+    height: 9vh;
+    line-height: 5.4rem;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #70072c;
+	max-width: 10vw;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-sh-r:hover {
+	background-color: #70072c;
+	color: white;
+	text-decoration: none;
+	border-color: #70072c;
+}
 .pr-img i {
 	font-size: 32px;
     color: #34292d;
+    display: block;
+    margin-bottom: 7vh;
+}
 }
 
 
@@ -350,7 +415,14 @@ h2 img {
 	color: #8ba462;
 	font-size: 34px;
 	display: block;
+	cursor: pointer;
 }
+
+.n-con-w a {
+	color: #8ba462;
+    text-decoration: underline;
+}
+
 .btn-ln {
 	display: flex;
     justify-content: center;
@@ -403,7 +475,7 @@ h2 img {
 	font-weight: 700;
 	color: #8ba462;
 	width: 50%;
-	font-size: 5vh;
+	font-size: 24px;
 }
 
 .sub-text {
@@ -422,6 +494,11 @@ h2 img {
     cursor: pointer;
     display: inline-block;
     padding: 1vh 0;
+}
+
+.sub-pop:hover {
+	background-color: #4f051f;
+	color: white;
 }
 
 .sub-pop i {
