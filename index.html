@@ -8,7 +8,9 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<!-- Custom css-->
 	<link href="css/app.css" type="text/css" rel="stylesheet"/>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" type="image/png" href="img/fav.ico"/>
 
 	<title>Project Wine</title>
 </head>
@@ -18,13 +20,13 @@
 
 	<section>
 		<!-- Responsive Horizontal Sliding Menu -->
-		<div class="menu">
-			<span >
-			</span>
-		</div>
 		<!-- End -->
 		<!-- Navigationbar -->
 		<div class="wrap-nav">
+			<div class="menu">
+				<i>MENU</i>
+				<span></span>
+			</div>
 			<div class="nav-logo">
 				<img src="img/your_logo.png">
 			</div>
@@ -56,16 +58,29 @@
 						<li>PSR Club Membership</li>
 					</ul>
 			    </li>
-			    <li><a href="#">ABOUT +</a></li>
+			    <li><a href="#">ABOUT +</a>
+			    	<ul>
+						<li>Millbrook Staff</li>
+						<li>Video Gallery</li>
+						<li>Our Wine Family</li>
+						<li>Employment</li>
+						<li>Trade</li>
+					</ul>
+			    </li>
 			    <li><a href="#">CONTACT</a></li>
-				<li><a href="#"><img src="img/search.png"></a></li>
+				<li class="search"><a href="#"><img src="img/search.png"></a></li>
 			  </ul>
 			</nav>
 		</div>
 	</section>
 
 	<section>
+			<div class="vines">
+				<div class="vines-l"></div>
+				<div class="vines-r"></div>
+			</div>
 		<div class="container-fluid px-0">
+
 		    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
 		        <div class="carousel-inner bg-info" role="listbox">
 		            <div class="carousel-item active">
@@ -75,12 +90,17 @@
 		            </div>
 		            <div class="carousel-item">
 		                <div class="d-flex align-items-center justify-content-center ">
+		                    <h2 class="display-1"><img src="img/slider/slide3.jpg"></h1>
+		                </div>
+		            </div>
+		            <div class="carousel-item">
+		                <div class="d-flex align-items-center justify-content-center ">
 		                    <h2 class="display-1"><img src="img/slider/slide2.jpg"></h1>
 		                </div>
 		            </div>
 		            <div class="carousel-item">
 		                <div class="d-flex align-items-center justify-content-center ">
-		                    <h2 class="display-1"><img src="img/slider/slide3.jpg"></h1>
+		                    <h2 class="display-1"><img src="img/slider/slide4.jpg"></h1>
 		                </div>
 		            </div>
 		        </div>
@@ -106,16 +126,16 @@
 		</div>
 		<div class="container ">
 		  <div class="row">
-		    <div class="col- h3-wrap">
+		    <div class="col-lg-12 h3-wrap">
 			    <h3>Visiting the Winery</h3>
 		    </div>
 		  </div>
 		  <div class="row">
-		  	<div class="col-6">
+		  	<div class="col-lg-6 col-md-6 col-sm-0 fix-img">
 		  		<div class="img-wrap">
 		  		</div>	
 		  	</div>
-		  	<div class="col-6">
+		  	<div class="col-lg-6 col-md-6 col-sm-12 ">
 		  		<div class="wrap-tx">
 			  		<span> An Experience to Savor</span>
 			  		<i>Come See Our Beautiful Lorem Ipsum</i>
@@ -134,38 +154,37 @@
 
 	<section>
 		<div class="t-l">
-				<div class="t-l-1">
-					<div class="overlay">
-						<i>Group Tours</i>					
-					</div>
+			<div class="t-l-1">
+				<div class="overlay">
+					<i>Group Tours</i>					
 				</div>
-				<div class="t-l-2">
-					<div class="overlay">
-						<i>Private Labels</i>
-					</div>
-				</div>	
+			</div>
+			<div class="t-l-2">
+				<div class="overlay">
+					<i>Private Labels</i>
+				</div>
+			</div>	
 		</div>
 	</section>
 
 	<section>
 		<div class="pr-img">
-				<div class="shop">
-						<img src="img/img1.jpg" align="center">						
-			<div class="container">
-				<div class="row shop-pr">
-					<div class="col-4">
-						<span>Our Products</span>
-					</div>
-					<div class="col-3">
-						
-					</div>
-					<div class="col-5 shop-r">
-						<i>View Millbrook Winery's Wines</i>
-						<a href="#" class="btn-sh-r">SHOP NOW</a>
+			<div class="shop">
+				<img src="img/img1.jpg" align="center">						
+				<div class="container">
+					<div class="row shop-pr">
+						<div class="col-lg-4 col-md-12">
+							<span>Our Products</span>
+						</div>
+						<div class="col-lg-3 ">
+						</div>
+						<div class="col-lg-5 col-md-12 shop-r">
+							<i>View Millbrook Winery's Wines</i>
+							<a href="#" class="btn-sh-r">SHOP NOW</a>
+						</div>
 					</div>
 				</div>
 			</div>
-				</div>
 		</div>
 	</section>
 	<section>
@@ -174,13 +193,13 @@
 				<p>Latest News</p>
 			</div>
 			<div class="row list-w">
-				<div class="col-6">
+				<div class="col-lg-6 col-sm-12 ">
 					<div class="n-con-w">
 						<span>Feb 16</span>
 						<p>
 							<i> Chili Weather Weekends</i>
 							Starting january 5th, come spend a winter weekend
-							afternoon with us chilin in the taparoom by the fire with a delicios bowl of chili <a href="#"> Read More  »</a>
+							afternoon with us chilin in the taparoom by the fire with a delicios bowl of chili<a href="#"> Read More  »</a>
 						</p>
 					</div>
 					<div class="n-con-w">
@@ -192,9 +211,9 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-sm-12">
 					<div class="n-con-w">
-						<span>Jan 4</span>
+						<span>Jan 14</span>
 						<p>
 							<i>We Still have Great Dates for 2019 Available</i>
 							Click here for more information about Winery Weddings!<a href="#"> Read More »</a>
@@ -234,7 +253,7 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-4 w-ft">
+					<div class="col-lg-4 col-md-6 w-ft">
 						<span>CONTACT</span>
 						<p>Millbrook Winery<br>
 							26 Wing Road, Millbrook, NY 12545<br>
@@ -243,7 +262,7 @@
 							millbrookwinery@millwine.com
 						</p>
 					</div>
-					<div class="col-4 w-ft">
+					<div class="col-lg-4 col-md-6 w-ft">
 						<span> OPENING HOURS</span>
 						<p>Open Year Round<br>
 							Monday-Sunday 12:00 p.m. to 5:00 p.m. <br>
@@ -251,7 +270,7 @@
 							Saturdays & Sundays Opens May 28, 2019<br>
 						</p>
 					</div>
-					<div class="col-4 w-ft">
+					<div class="col-lg-4 col-md-12 w-ft">
 						<span>CONNECT WITH US</span>
 						<ul>
 							<li>FACEBOOK</li>
@@ -261,9 +280,9 @@
 						</ul>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row ">
 					<div class="col- f-e-msg">
-						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, Design by MSM DesignZ, Inc.</span>
+						<span> 2019 Lorem ipsum dolor sit amet, adipisicing elit, Design by MSM DesignZ, Inc.</span>
 					</div>
 				</div>
 			</div>

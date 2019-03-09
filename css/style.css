@@ -1,6 +1,12 @@
 
 
-/* Navigationbar */
+
+
+/* Navigation bar */
+.menu {
+	display: none;
+}
+
 .nav-logo {
 	display: block;
 	width: 20%;
@@ -27,7 +33,7 @@
 	height: auto;
 	height: 20vh;
 	position: absolute;
-	z-index: 2;
+	z-index: 12;
 }
 .navbar-menu {
 	display: block;
@@ -42,7 +48,7 @@
 .navbar-menu.active {
 	transform: translateX(0);
 	transition: 0.5s; 
-	background-color: rgb(111, 159, 216, 0.6);
+	background-color: rgba(112,7,44,0.8);
 }
 .navbar-menu .menu-listing { 
 	padding: 0;
@@ -113,6 +119,47 @@ nav > ul > li:hover ul{
 
 /* End */
 
+/*Vines*/
+
+.vines {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 50vh;
+	min-height: 240px;
+}
+
+.vines-l {
+	background: url(../img/vines-l.png);
+	background-size: cover;
+	height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.vines-l::after {
+	content: "";
+	clear: both;
+	display: inline-block;
+}
+
+.vines-r {
+	background: url(../img/vines-r.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.vines-r::after {
+	content: "";
+	clear: both;
+	display: inline-block;
+}
 /*Slider edit*/
 
 .carousel-item {
@@ -134,7 +181,7 @@ h2 img {
 
 .visit {
 	background-image: url(../img/backg.png);
-	background-size: c ;
+	background-size: ;
 	width: 100%;
 	height: 110vh;
 	padding-top: 24px;
@@ -155,7 +202,7 @@ h2 img {
 	background-color: white;
 	height: 30vh;
 	width: 100%;
-	padding: 5% 15%;
+	padding: 5% 5%;
 }
 
 .fp-main p {
@@ -206,6 +253,8 @@ h2 img {
 	display: block;
 	width: 100%;
 	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: normal;
 }
 
 .wrap-tx button {
